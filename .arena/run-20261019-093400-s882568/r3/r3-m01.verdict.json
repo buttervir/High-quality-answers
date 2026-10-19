@@ -1,0 +1,11 @@
+{
+  "match": "r3-m01",
+  "scores": {
+    "a006": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 6, "fatal": false},
+    "a011": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a006",
+  "reason": "Both fixed every attack and their arithmetic checks out, but a006 covers the task more completely (costed founder-pay route at 18 for every university end state, safeguarding protocol, tranche budget, alternative tracks), and that edges out a011's tighter, clearer but thinner single-track plan.",
+  "survived": ["voluntary GST at incorporation (now registers on crossing per-PAN threshold)", "Checkpoint 1 Green test vs forecast mismatch (reset to 12+ families, forecast 14)", "unmodelled May exam-year exit (40% exit modelled, 12-month average pay rule plus reserve)", "university end state, manager cost and non-resident rebate (four costed end states)", "understated coordinator and insurance fixed costs (now 47k, month 15 still about 1.05L)"],
+  "standing": {"a006": [], "a011": []}
+}
