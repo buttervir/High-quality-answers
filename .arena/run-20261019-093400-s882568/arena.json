@@ -50,10 +50,10 @@
      "how": "Assume the inputs are bad and the conditions are hostile. Make the answer fail safely and loudly rather than quietly."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m01.a002.solution.md",
-   "alive": true,
-   "eliminated_in": null,
-   "eliminated_by": null,
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m01.a002.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a006",
    "byes": 0
   },
   "a003": {
@@ -146,7 +146,7 @@
      "how": "Leave out nothing the task asks for or clearly implies. Cover every requirement explicitly."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m04.a006.solution.md",
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m01.a006.solution.md",
    "alive": true,
    "eliminated_in": null,
    "eliminated_by": null,
@@ -194,7 +194,7 @@
      "how": "Be exhaustive and exact. Check every step, verify every claim, and leave no hand-waving anywhere."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m08.a008.solution.md",
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m03.a008.solution.md",
    "alive": true,
    "eliminated_in": null,
    "eliminated_by": null,
@@ -266,7 +266,7 @@
      "how": "Remove things until it breaks, then put the last one back. Fewer steps, fewer dependencies, fewer words."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m07.a011.solution.md",
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m02.a011.solution.md",
    "alive": true,
    "eliminated_in": null,
    "eliminated_by": null,
@@ -290,10 +290,10 @@
      "how": "Hunt the edge cases, failure modes and weird inputs first, and design the answer around surviving them."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m06.a012.solution.md",
-   "alive": true,
-   "eliminated_in": null,
-   "eliminated_by": null,
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m03.a012.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a008",
    "byes": 0
   },
   "a013": {
@@ -314,10 +314,10 @@
      "how": "Assume the inputs are bad and the conditions are hostile. Make the answer fail safely and loudly rather than quietly."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m03.a013.solution.md",
-   "alive": true,
-   "eliminated_in": null,
-   "eliminated_by": null,
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m02.a013.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a011",
    "byes": 0
   },
   "a014": {
@@ -338,10 +338,10 @@
      "how": "Start from the person who will use this: their situation, their skill level, and what they will actually do next. Shape everything around that."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m02.a014.solution.md",
-   "alive": true,
-   "eliminated_in": null,
-   "eliminated_by": null,
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m04.a014.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a016",
    "byes": 0
   },
   "a015": {
@@ -386,7 +386,7 @@
      "how": "Be exhaustive and exact. Check every step, verify every claim, and leave no hand-waving anywhere."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r1/r1-m05.a016.solution.md",
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m04.a016.solution.md",
    "alive": true,
    "eliminated_in": null,
    "eliminated_by": null,
@@ -607,28 +607,105 @@
      "id": "r2-m01",
      "a": "a006",
      "b": "a002",
-     "winner": null,
-     "loser": null,
-     "reason": null,
-     "survived": [],
-     "scores": null,
-     "source": null
+     "winner": "a006",
+     "loser": "a002",
+     "reason": "Both fixed every attack, but a006's figures all check out, its job-replacing target is tested after tax and turned into a nearly tax-free salary from 18, while a002 has an arithmetic slip (5 groups of 4 gives about Rs 53,000, not Rs 59,500) and never shows that its Rs 50k founder net, which is likely clubbed at the parent's slab before 18, actually replaces a job after tax.",
+     "survived": [
+      "month-12 target relying on founder teaching (target moved to agency-only month 15, verified)",
+      "pre-tax vs after-tax job replacement (stage-by-stage tax table plus salary from 18, verified)",
+      "margin ignoring loyalty step, leakage and compliance (Rs 750/hr, x0.9 leakage, Rs 40k fixed; recomputed correctly)",
+      "pre-GST margin miscalculation (now Rs 792/1,260, about Rs 1,000)",
+      "contradictory checkpoints and no safeguarding decision (single decision table plus POCSO protocol)",
+      "noisy grade trigger (two-assessment smoothed measure)"
+     ],
+     "scores": {
+      "a006": 85.0,
+      "a002": 80.5
+     },
+     "source": "judge"
     },
     {
      "id": "r2-m02",
      "a": "a011",
      "b": "a013",
-     "winner": null,
-     "loser": null,
-     "reason": null,
-     "survived": [],
-     "scores": null,
-     "source": null
+     "winner": "a011",
+     "loser": "a013",
+     "reason": "Both fixed every attack, but a011's rupee model checks out line by line (roster, FY running totals, GST timing, steady-state and downside P&L) and gives a tighter, directly executable path that reaches a job-replacing figure with a stated downside, while a013 is about twice as long, more hedged, and mostly lands at 5-7% odds of reaching its lower \u20b950k target.",
+     "survived": [
+      "single-cohort steady state (now a yearly 23-student intake engine with churn seats and Sep 30 check)",
+      "15% conversion from a 20-contact sample (lead list, Jul 31 re-measure, downside case)",
+      "early GST registration losing ~\u20b987k (now last week of Jan 2028, \u20b917L trigger)",
+      "36% clubbing set-aside too low (now 39%, CA uses actual rate)",
+      "bridge course clashing with board and DP1 exams (moved to 21 Jun-3 Jul with fallback)",
+      "minor savings account limits (parent current account from Jun 2027)",
+      "no ITR filing for the minor's own-skill income (now filed, ~\u20b92.3-2.7L)"
+     ],
+     "scores": {
+      "a011": 86.0,
+      "a013": 80.0
+     },
+     "source": "judge"
     },
     {
      "id": "r2-m03",
      "a": "a008",
      "b": "a012",
+     "winner": "a008",
+     "loser": "a012",
+     "reason": "Both fixed every attack, but a008's month-by-month model checks out arithmetically line by line with honest sensitivities, while a012's central income mechanism (a flat Rs40k founder fee kept through 0-4 hr/week DP2 months and Rs1L remuneration) is not arm's-length and its Sep-Dec 2027 target window collides with its own DP2 overhead jump; a012's earlier student-owned company narrows but does not ",
+     "survived": [
+      "FATAL: no phase produced Level 1 / Gate 2 could not separate cases - fixed with verified monthly model and split Gate 2 thresholds",
+      "Rs43k personal income and founder fee broke DP2 hours cap - fixed with hourly logged fee and phase-by-phase income",
+      "No mechanism to move retained profit to student - fixed with explicit routes table and valued transfer",
+      "Tutor pool legally unavailable / DP2 minors sourced - fixed with 18+ ID check, work-rights declaration, pool sizing",
+      "Minor as MoA subscriber at SPICe+ - fixed with parent subscribers then SH-4 gift",
+      "Diwali dates for Phase 0 - fixed"
+     ],
+     "scores": {
+      "a008": 80.0,
+      "a012": 79.0
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r2-m04",
+     "a": "a016",
+     "b": "a014",
+     "winner": "a016",
+     "loser": "a014",
+     "reason": "Both fixed every attack, but a016 now has a costed acquisition/churn plan, an outreach funnel that adds up, and Target 2 math that checks out line by line. a014 still leans on an unmodelled growth path from 8 students to 300 hours a month, a 30-contact funnel that cannot yield 8 students, and a Path B 'clients reclaim GST' claim that is wrong for its clinic and restaurant targets.",
+     "survived": [
+      "agency prices above own market evidence (repriced to 1,500/2,400 plus the Gate P test)",
+      "Gate 2 unreachable with 30 contacts (four scheduled batches, about 12 families)",
+      "no client-acquisition or churn plan (Section 6.8 with volumes and exam-year exits)",
+      "inflated 1,000/hr related-party fee (600 per diagnostic, 300 per admin hour)",
+      "37L director salary disallowance risk (4.2L salary plus dividends and a buffer, math verified)",
+      "2-hour teaching cap vs legacy clients (exact slot handover)",
+      "Track B GST on exempt clinics (GST-inclusive pricing, recomputed)"
+     ],
+     "scores": {
+      "a016": 84.0,
+      "a014": 77.0
+     },
+     "source": "judge"
+    }
+   ],
+   "bye": null,
+   "closed": true
+  },
+  {
+   "n": 3,
+   "alive": [
+    "a006",
+    "a008",
+    "a011",
+    "a016"
+   ],
+   "matches": [
+    {
+     "id": "r3-m01",
+     "a": "a006",
+     "b": "a011",
      "winner": null,
      "loser": null,
      "reason": null,
@@ -637,9 +714,9 @@
      "source": null
     },
     {
-     "id": "r2-m04",
-     "a": "a016",
-     "b": "a014",
+     "id": "r3-m02",
+     "a": "a008",
+     "b": "a016",
      "winner": null,
      "loser": null,
      "reason": null,

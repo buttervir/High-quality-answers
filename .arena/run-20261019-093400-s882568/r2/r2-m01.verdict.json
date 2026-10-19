@@ -1,0 +1,18 @@
+{
+  "match": "r2-m01",
+  "scores": {
+    "a006": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a002": {"correctness": 7, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a006",
+  "reason": "Both fixed every attack, but a006's figures all check out, its job-replacing target is tested after tax and turned into a nearly tax-free salary from 18, while a002 has an arithmetic slip (5 groups of 4 gives about Rs 53,000, not Rs 59,500) and never shows that its Rs 50k founder net, which is likely clubbed at the parent's slab before 18, actually replaces a job after tax.",
+  "survived": [
+    "month-12 target relying on founder teaching (target moved to agency-only month 15, verified)",
+    "pre-tax vs after-tax job replacement (stage-by-stage tax table plus salary from 18, verified)",
+    "margin ignoring loyalty step, leakage and compliance (Rs 750/hr, x0.9 leakage, Rs 40k fixed; recomputed correctly)",
+    "pre-GST margin miscalculation (now Rs 792/1,260, about Rs 1,000)",
+    "contradictory checkpoints and no safeguarding decision (single decision table plus POCSO protocol)",
+    "noisy grade trigger (two-assessment smoothed measure)"
+  ],
+  "standing": {"a006": [], "a002": []}
+}

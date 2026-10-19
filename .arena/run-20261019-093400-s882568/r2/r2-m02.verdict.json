@@ -1,0 +1,22 @@
+{
+  "match": "r2-m02",
+  "scores": {
+    "a011": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false},
+    "a013": {"correctness": 8, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 6, "fatal": false}
+  },
+  "winner": "a011",
+  "reason": "Both fixed every attack, but a011's rupee model checks out line by line (roster, FY running totals, GST timing, steady-state and downside P&L) and gives a tighter, directly executable path that reaches a job-replacing figure with a stated downside, while a013 is about twice as long, more hedged, and mostly lands at 5-7% odds of reaching its lower ₹50k target.",
+  "survived": [
+    "single-cohort steady state (now a yearly 23-student intake engine with churn seats and Sep 30 check)",
+    "15% conversion from a 20-contact sample (lead list, Jul 31 re-measure, downside case)",
+    "early GST registration losing ~₹87k (now last week of Jan 2028, ₹17L trigger)",
+    "36% clubbing set-aside too low (now 39%, CA uses actual rate)",
+    "bridge course clashing with board and DP1 exams (moved to 21 Jun-3 Jul with fallback)",
+    "minor savings account limits (parent current account from Jun 2027)",
+    "no ITR filing for the minor's own-skill income (now filed, ~₹2.3-2.7L)"
+  ],
+  "standing": {
+    "a011": [],
+    "a013": []
+  }
+}

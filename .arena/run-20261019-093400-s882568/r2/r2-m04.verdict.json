@@ -1,0 +1,11 @@
+{
+  "match": "r2-m04",
+  "scores": {
+    "a016": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 6, "fatal": false},
+    "a014": {"correctness": 7, "completeness": 8, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false}
+  },
+  "winner": "a016",
+  "reason": "Both fixed every attack, but a016 now has a costed acquisition/churn plan, an outreach funnel that adds up, and Target 2 math that checks out line by line. a014 still leans on an unmodelled growth path from 8 students to 300 hours a month, a 30-contact funnel that cannot yield 8 students, and a Path B 'clients reclaim GST' claim that is wrong for its clinic and restaurant targets.",
+  "survived": ["agency prices above own market evidence (repriced to 1,500/2,400 plus the Gate P test)", "Gate 2 unreachable with 30 contacts (four scheduled batches, about 12 families)", "no client-acquisition or churn plan (Section 6.8 with volumes and exam-year exits)", "inflated 1,000/hr related-party fee (600 per diagnostic, 300 per admin hour)", "37L director salary disallowance risk (4.2L salary plus dividends and a buffer, math verified)", "2-hour teaching cap vs legacy clients (exact slot handover)", "Track B GST on exempt clinics (GST-inclusive pricing, recomputed)"],
+  "standing": {"a016": [], "a014": []}
+}

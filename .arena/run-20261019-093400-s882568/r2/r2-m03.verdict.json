@@ -1,0 +1,21 @@
+{
+  "match": "r2-m03",
+  "scores": {
+    "a008": {"correctness": 8, "completeness": 7, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a012": {"correctness": 7, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a008",
+  "reason": "Both fixed every attack, but a008's month-by-month model checks out arithmetically line by line with honest sensitivities, while a012's central income mechanism (a flat Rs40k founder fee kept through 0-4 hr/week DP2 months and Rs1L remuneration) is not arm's-length and its Sep-Dec 2027 target window collides with its own DP2 overhead jump; a012's earlier student-owned company narrows but does not close the gap.",
+  "survived": [
+    "FATAL: no phase produced Level 1 / Gate 2 could not separate cases - fixed with verified monthly model and split Gate 2 thresholds",
+    "Rs43k personal income and founder fee broke DP2 hours cap - fixed with hourly logged fee and phase-by-phase income",
+    "No mechanism to move retained profit to student - fixed with explicit routes table and valued transfer",
+    "Tutor pool legally unavailable / DP2 minors sourced - fixed with 18+ ID check, work-rights declaration, pool sizing",
+    "Minor as MoA subscriber at SPICe+ - fixed with parent subscribers then SH-4 gift",
+    "Diwali dates for Phase 0 - fixed"
+  ],
+  "standing": {
+    "a008": ["minor: Section 5 bootcamp windows (Dec-Jan, Mar-Apr) contradict the Feb 2027 bootcamp in Phase 2 (judge-found)"],
+    "a012": ["minor: flat Rs25-40k founder fee persists through 4 hr/week and zero-hour DP2 months, failing arm's-length (judge-found)", "minor: target window Sep-Dec 2027 assumes 6 tutors but DP2 Rs1.0L overhead from Oct drops 6-tutor profit to ~Rs91k (judge-found)"]
+  }
+}
