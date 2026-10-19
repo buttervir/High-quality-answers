@@ -146,7 +146,7 @@
      "how": "Leave out nothing the task asks for or clearly implies. Cover every requirement explicitly."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m01.a006.solution.md",
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r3/r3-m01.a006.solution.md",
    "alive": true,
    "eliminated_in": null,
    "eliminated_by": null,
@@ -194,7 +194,7 @@
      "how": "Be exhaustive and exact. Check every step, verify every claim, and leave no hand-waving anywhere."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m03.a008.solution.md",
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r3/r3-m02.a008.solution.md",
    "alive": true,
    "eliminated_in": null,
    "eliminated_by": null,
@@ -266,10 +266,10 @@
      "how": "Remove things until it breaks, then put the last one back. Fewer steps, fewer dependencies, fewer words."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m02.a011.solution.md",
-   "alive": true,
-   "eliminated_in": null,
-   "eliminated_by": null,
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r3/r3-m01.a011.solution.md",
+   "alive": false,
+   "eliminated_in": 3,
+   "eliminated_by": "a006",
    "byes": 0
   },
   "a012": {
@@ -386,10 +386,10 @@
      "how": "Be exhaustive and exact. Check every step, verify every claim, and leave no hand-waving anywhere."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r2/r2-m04.a016.solution.md",
-   "alive": true,
-   "eliminated_in": null,
-   "eliminated_by": null,
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r3/r3-m02.a016.solution.md",
+   "alive": false,
+   "eliminated_in": 3,
+   "eliminated_by": "a008",
    "byes": 0
   }
  },
@@ -706,17 +706,59 @@
      "id": "r3-m01",
      "a": "a006",
      "b": "a011",
-     "winner": null,
-     "loser": null,
-     "reason": null,
-     "survived": [],
-     "scores": null,
-     "source": null
+     "winner": "a006",
+     "loser": "a011",
+     "reason": "Both fixed every attack and their arithmetic checks out, but a006 covers the task more completely (costed founder-pay route at 18 for every university end state, safeguarding protocol, tranche budget, alternative tracks), and that edges out a011's tighter, clearer but thinner single-track plan.",
+     "survived": [
+      "voluntary GST at incorporation (now registers on crossing per-PAN threshold)",
+      "Checkpoint 1 Green test vs forecast mismatch (reset to 12+ families, forecast 14)",
+      "unmodelled May exam-year exit (40% exit modelled, 12-month average pay rule plus reserve)",
+      "university end state, manager cost and non-resident rebate (four costed end states)",
+      "understated coordinator and insurance fixed costs (now 47k, month 15 still about 1.05L)"
+     ],
+     "scores": {
+      "a006": 84.0,
+      "a011": 83.5
+     },
+     "source": "judge"
     },
     {
      "id": "r3-m02",
      "a": "a008",
      "b": "a016",
+     "winner": "a008",
+     "loser": "a016",
+     "reason": "a008 fixed all seven attacks and I checked its monthly model, Level 1 year, sensitivity and company-year figures line by line without finding an error; a016 gets closer to after-tax personal income, but it leaves stale contradictions in the text (the bottom line still says exam exits come 'every June', fee turnover is given as 6.2L in one place and 6.95L in another, ops manager pay is 35k in one p",
+     "survived": [
+      "Gate 2 Base band below the 12% sensitivity margin: raised to >=110 hrs / >=3.15L, and a Borderline band and Gate 3 added",
+      "pre-tax parent profit counted as job-replacing money: Section 8.7 now separates business and personal income, after company tax, the GM bonus, compliance and the instalments",
+      "unexplained DP2 demand ramp: demand bridge, coordinator owns sales, waitlist hiring rule, Gate 3 term-time check",
+      "GST aggregate turnover ignored exempt supplies: CA audits every supply on each parent's PAN, with voluntary registration as the fallback",
+      "minor founder broke the adult-only safeguarding and contract rules: founder-session rule and per-session prepayment",
+      "model errors in Nov 2026, May 2027, the bootcamp windows and the GST date: all corrected and rechecked",
+      "Feb-May 2027 operations had no owner: coordinator from 1 Feb 2027, costed in the model"
+     ],
+     "scores": {
+      "a008": 83.5,
+      "a016": 80.0
+     },
+     "source": "judge"
+    }
+   ],
+   "bye": null,
+   "closed": true
+  },
+  {
+   "n": 4,
+   "alive": [
+    "a006",
+    "a008"
+   ],
+   "matches": [
+    {
+     "id": "r4-m01",
+     "a": "a006",
+     "b": "a008",
      "winner": null,
      "loser": null,
      "reason": null,

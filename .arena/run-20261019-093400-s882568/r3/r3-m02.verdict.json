@@ -1,0 +1,22 @@
+{
+  "match": "r3-m02",
+  "scores": {
+    "a008": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false},
+    "a016": {"correctness": 7, "completeness": 9, "specificity": 9, "robustness": 8, "clarity": 7, "fatal": false}
+  },
+  "winner": "a008",
+  "reason": "a008 fixed all seven attacks and I checked its monthly model, Level 1 year, sensitivity and company-year figures line by line without finding an error; a016 gets closer to after-tax personal income, but it leaves stale contradictions in the text (the bottom line still says exam exits come 'every June', fee turnover is given as 6.2L in one place and 6.95L in another, ops manager pay is 35k in one place and 40k in another) and its personal-income timeline rests on an agent-not-principal GST position the CA has not yet confirmed.",
+  "survived": [
+    "Gate 2 Base band below the 12% sensitivity margin: raised to >=110 hrs / >=3.15L, and a Borderline band and Gate 3 added",
+    "pre-tax parent profit counted as job-replacing money: Section 8.7 now separates business and personal income, after company tax, the GM bonus, compliance and the instalments",
+    "unexplained DP2 demand ramp: demand bridge, coordinator owns sales, waitlist hiring rule, Gate 3 term-time check",
+    "GST aggregate turnover ignored exempt supplies: CA audits every supply on each parent's PAN, with voluntary registration as the fallback",
+    "minor founder broke the adult-only safeguarding and contract rules: founder-session rule and per-session prepayment",
+    "model errors in Nov 2026, May 2027, the bootcamp windows and the GST date: all corrected and rechecked",
+    "Feb-May 2027 operations had no owner: coordinator from 1 Feb 2027, costed in the model"
+  ],
+  "standing": {
+    "a008": [],
+    "a016": ["exam-year churn timing: the body is fixed to May, but the bottom line still says exits come every June (minor, stale text)"]
+  }
+}
