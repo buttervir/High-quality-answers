@@ -146,10 +146,10 @@
      "how": "Leave out nothing the task asks for or clearly implies. Cover every requirement explicitly."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r3/r3-m01.a006.solution.md",
-   "alive": true,
-   "eliminated_in": null,
-   "eliminated_by": null,
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r4/r4-m01.a006.solution.md",
+   "alive": false,
+   "eliminated_in": 4,
+   "eliminated_by": "a008",
    "byes": 0
   },
   "a007": {
@@ -194,7 +194,7 @@
      "how": "Be exhaustive and exact. Check every step, verify every claim, and leave no hand-waving anywhere."
     }
    },
-   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r3/r3-m02.a008.solution.md",
+   "solution": "/home/user/High-quality-answers/.arena/run-20261019-093400-s882568/r4/r4-m01.a008.solution.md",
    "alive": true,
    "eliminated_in": null,
    "eliminated_by": null,
@@ -759,18 +759,28 @@
      "id": "r4-m01",
      "a": "a006",
      "b": "a008",
-     "winner": null,
-     "loser": null,
-     "reason": null,
-     "survived": [],
-     "scores": null,
-     "source": null
+     "winner": "a008",
+     "loser": "a006",
+     "reason": "Both fixed every attack, but a008's revised plan carries a fully costed, arithmetic-checked route to Rs 1 lakh/month in the student's own hands plus the company-stage execution steps (TAN/TDS/24Q/26Q, PT, valued slump-sale transfer, minor-cannot-subscribe share gift) that a006 leaves to vague CA questions or omits.",
+     "survived": [
+      "No scenario reached Personal Level 1: fixed with costed director-GM plus tutoring route (verified Rs 1.02L/1.08L net)",
+      "Gate 1 student count vs 25 tutor-hours: fixed with explicit 4+4 roster and >=7 gate",
+      "Tutor leakage protected only by void post-termination non-solicit: fixed with in-term restraint, retention bonus, cap and 5% modelled leakage",
+      "Wrong non-resident claim for student abroad: fixed with study-departure 60-day residency rule and day-count sheet",
+      "Missing TDS/TAN/PT obligations: fixed in Section 6 step 11 and Phase 5 and costed",
+      "Late-birthday break of Option A: fixed with later-of start date and interim rules"
+     ],
+     "scores": {
+      "a006": 82.0,
+      "a008": 85.0
+     },
+     "source": "judge"
     }
    ],
    "bye": null,
-   "closed": false
+   "closed": true
   }
  ],
- "champion": null,
+ "champion": "a008",
  "final": null
 }

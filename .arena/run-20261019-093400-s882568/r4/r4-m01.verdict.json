@@ -1,0 +1,18 @@
+{
+  "match": "r4-m01",
+  "scores": {
+    "a006": {"correctness": 8, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false},
+    "a008": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a008",
+  "reason": "Both fixed every attack, but a008's revised plan carries a fully costed, arithmetic-checked route to Rs 1 lakh/month in the student's own hands plus the company-stage execution steps (TAN/TDS/24Q/26Q, PT, valued slump-sale transfer, minor-cannot-subscribe share gift) that a006 leaves to vague CA questions or omits.",
+  "survived": [
+    "No scenario reached Personal Level 1: fixed with costed director-GM plus tutoring route (verified Rs 1.02L/1.08L net)",
+    "Gate 1 student count vs 25 tutor-hours: fixed with explicit 4+4 roster and >=7 gate",
+    "Tutor leakage protected only by void post-termination non-solicit: fixed with in-term restraint, retention bonus, cap and 5% modelled leakage",
+    "Wrong non-resident claim for student abroad: fixed with study-departure 60-day residency rule and day-count sheet",
+    "Missing TDS/TAN/PT obligations: fixed in Section 6 step 11 and Phase 5 and costed",
+    "Late-birthday break of Option A: fixed with later-of start date and interim rules"
+  ],
+  "standing": {"a006": [], "a008": []}
+}
