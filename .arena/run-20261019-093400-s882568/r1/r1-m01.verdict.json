@@ -1,0 +1,21 @@
+{
+  "match": "r1-m01",
+  "scores": {
+    "a002": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false},
+    "a015": {"correctness": 7, "completeness": 9, "specificity": 8, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a002",
+  "reason": "Both fixed every attack, but a002 reconciles its income target with an explicit hour-by-hour budget, gives exact messages and prices, and is grounded in arithmetic; a015's revenue and profit gates (Rs 75k owner profit by Aug 2027 on 6-8 h/week, around DP1 exams) are never checked against an hours budget, and it leaves the business choice open across three tracks.",
+  "survived": [
+    "Rs 50k mix breaking the 8 h/week cap (fixed with an hour budget and a 3-month average including holiday months)",
+    "contradictory Rs 50k windows and seasonality (fixed with a single governing calendar, Year 9-10 recruiting and a summer head-start course)",
+    "undefined DP1 grade tripwire (fixed: school-reported 1-7 grades, dated baseline, monthly deadline trigger)",
+    "OPC vs study abroad (correctly rebutted via the 2021 amendment allowing non-resident Indian citizens; resident-director point added)",
+    "no plan for the exam pause (fixed with a dated wind-down per revenue stream)",
+    "withholding GBP/WhatsApp logins (fixed: client owns accounts, leverage is the staging site and domain)"
+  ],
+  "standing": {
+    "a002": [],
+    "a015": []
+  }
+}

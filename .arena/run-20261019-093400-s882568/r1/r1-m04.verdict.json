@@ -1,0 +1,11 @@
+{
+  "match": "r1-m04",
+  "scores": {
+    "a003": {"correctness": 7, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 9, "fatal": false},
+    "a006": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a006",
+  "reason": "Both fixed every attack, but a006's revised numbers (GST-inclusive per-hour margin, bootcamp profit, tranche and checkpoint math) check out and it covers money flow, tax, legal structure and fallbacks more fully. a003 still uses a grade-protection trigger based on DP1 predicted grades, which schools rarely issue, and its Jan–Mar 2028 proof window ignores that many Indian IGCSE schools sit the March series.",
+  "survived": ["GST and gateway fees missing from the profit math (fixed with a worked per-hour table)", "post-term non-solicit unenforceable and minor tutors (now an in-term restraint, economic lock-in, adults only)", "gap between milestones and stop rules (fixed with a Green/Amber/Red table, month 12 used everywhere)", "skill-income money flow could not work (Founder sessions now invoiced and paid separately)", "screening tutors on IB scores not yet awarded (now checked against result documents)", "grade trigger relied on predicted grades (now uses a school-assessment baseline and missed deadlines)"],
+  "standing": {"a003": [], "a006": []}
+}

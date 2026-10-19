@@ -1,0 +1,11 @@
+{
+  "match": "r1-m07",
+  "scores": {
+    "a011": {"correctness": 8, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 9, "fatal": false},
+    "a007": {"correctness": 7, "completeness": 9, "specificity": 9, "robustness": 8, "clarity": 6, "fatal": false}
+  },
+  "winner": "a011",
+  "reason": "a011's arithmetic all checks out (13 groups give about Rs 1.05L after GST, and after income tax that is about Rs 1L in hand at 18, against a Rs 12 LPA take-home) in a tight, usable plan. a007 is more detailed, but it measures its Rs 1L target before income tax as parent-owned agency profit, keeps a grade stop rule based on DP1 predicted grades that schools may not issue yet, and runs to 6,300 words.",
+  "survived": ["GST/after-tax job-replacement gap (rebuilt GST-inclusive, after-tax on both sides)", "May cohort churn (bridge course + defined DP1 product, roster table)", "FY 2027-28 GST timing understated (running-total table, Dec 2027 registration, per-PAN warning)", "grade stop rule without baseline (school-reported grade baseline)", "8 vs ~8.7 sessions/month tutor cost (9 hrs budgeted)"],
+  "standing": {"a011": [], "a007": []}
+}

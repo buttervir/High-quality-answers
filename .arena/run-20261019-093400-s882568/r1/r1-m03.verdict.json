@@ -1,0 +1,21 @@
+{
+  "match": "r1-m03",
+  "scores": {
+    "a013": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false},
+    "a010": {"correctness": 7, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a013",
+  "reason": "Both fixed every attack, and a010's sums check out, but a013 multiplies its gate odds into honest headline probabilities (I checked 0.6x0.45x0.40x0.5 = about 5-6%), while a010 presents a 60-student, Rs1.15L-FAP path by Feb 2028 as the 'expected' outcome with no probability, which overstates what a DP student is likely to reach.",
+  "survived": [
+    "headline odds inconsistent with gate probabilities (recomputed as an explicit chain; checked)",
+    "hour caps made Gate 2 impossible (separate DP1 and DP2 exam caps, per-client time budget, exam-month clause)",
+    "freelancer scaling undoes the skill-income tax exception (CA decision rule with worked after-tax numbers)",
+    "medical-advertising rules for clinics (clinics cut to optional, listing-accuracy-only work)",
+    "gates measured revenue, not profit (every gate now states profit; Gate 4 tests the goal; incorporation tied to profit)",
+    "Phase 0 Insights timing and a grade baseline that may not exist (pitches use audit screenshots; baseline uses the grades the school actually issues; tighter trigger)"
+  ],
+  "standing": {
+    "a013": [],
+    "a010": []
+  }
+}

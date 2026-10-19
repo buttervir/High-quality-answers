@@ -1,0 +1,11 @@
+{
+  "match": "r1-m06",
+  "scores": {
+    "a012": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a001": {"correctness": 7, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a012",
+  "reason": "Both fixed every attack, but a012's per-task hour budgets add up to its 8 hrs/week cap and its GST-adjusted math checks out to ~Rs1L after tax in a company the student majority-owns, while a001's 6 hrs/week cap counts only teaching hours (no time left for prep, sales, hiring or Layer-2 setup) and its Rs1L target is pre-tax income that legally belongs to a parent until 18.",
+  "survived": ["GST omitted from profit math (rebuilt with GST-inclusive prices and company tax)", "tutors hired before an entity existed (incorporation moved to Week 9, tutors start Week 13)", "clubbing of margin on others' work (margin earned in company, no dividends before 18)", "8 hrs/week cap vs workload (per-task hour tables plus drop order)", "thin fallback (full Part 4B plan with gates)", "Pvt Ltd needs 2 directors (two adult directors, minor gets shares via guardian)", "contradictory tutor pool (18+ pool with widening rule)"],
+  "standing": {"a012": [], "a001": []}
+}

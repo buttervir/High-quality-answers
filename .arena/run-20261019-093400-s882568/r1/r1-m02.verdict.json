@@ -1,0 +1,22 @@
+{
+  "match": "r1-m02",
+  "scores": {
+    "a005": {"correctness": 7, "completeness": 7, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false},
+    "a014": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a014",
+  "reason": "Both fixed every attack with arithmetic that checks out, but a014 also uses a legally sound adult wrapper for the agency while the student is a minor and plans the August 2028 move to university under visa limits, whereas a005 has a minor run an agency with guardian-signed contracts and only says to check with a CA if the student studies abroad.",
+  "survived": [
+    "GST ignored in headline profit: fixed with GST-inclusive per-hour unit table (verified 490/980 margins, 1.52 lakh net, 225-hr break-even)",
+    "Tutor pool leaving for university: fixed with one-third cap, July re-recruit, 25% bench, stable teacher core",
+    "Overlapping pay/price bands: fixed with single non-overlapping table and recomputable formula",
+    "Owner work abroad vs visa: fixed with passive-shareholder role and written delegation to manager and parent-director",
+    "June 2028 target counting unearned course/bootcamp revenue: fixed, tutoring-only 6-month average",
+    "Pvt Ltd at 18 timing: fixed with fixed July 2028 incorporation and guardian-held shares",
+    "Udyam misdescribed as required: fixed with bank-ready document set"
+  ],
+  "standing": {
+    "a005": [],
+    "a014": []
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "match": "r1-m08",
+  "scores": {
+    "a008": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a009": {"correctness": 6, "completeness": 8, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false}
+  },
+  "winner": "a008",
+  "reason": "a008's revised Level-1 P&L is GST-inclusive and checks out line by line (verified ~1,30,769 + 18,186), while a009's Stage 3 ₹1 lakh P&L omits the 18% GST it itself says the ~₹30 lakh/yr tutoring route will trigger (about ₹38k/month), so its headline target is overstated; a008 is also more exact on dates, prices, gates and the pre-departure company structure.",
+  "survived": ["GST missing from base-case profit (now GST-inclusive, recomputed, verified)", "conservative case vs growth ban (now stated honestly as post-exam)", "student's own income overstated (split out, fixed founder fee)", "schedules breaking 8 hr cap (hour budgets 7.5/6.75)", "predicted-grade baseline unavailable in DP1 (term grades used)", "capital tranches inconsistent (now exactly ₹5 lakh)", "birthday after departure (company incorporated before leaving)"],
+  "standing": {
+    "a008": ["(judge-found, minor) no mention of the 2024 coaching-centre guidelines although it targets Grade 9-10 students"],
+    "a009": ["(judge-found) Stage 3 ₹1 lakh P&L ignores 18% GST despite stating turnover will cross ₹20 lakh", "(judge-found, minor) claims bank accounts require age 18, contrary to RBI 2025 minor-account rules"]
+  }
+}

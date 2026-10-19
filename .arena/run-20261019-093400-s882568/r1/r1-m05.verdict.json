@@ -1,0 +1,19 @@
+{
+  "match": "r1-m05",
+  "scores": {
+    "a016": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a004": {"correctness": 8, "completeness": 7, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a016",
+  "reason": "Both fixed every attack, but a016 gives a fully costed, tax-checked path to job-replacing income in the student's own name (Target 1 at Rs1.06L/month after tax in late 2028, Target 2 at Rs2.5L by FY2030-31, plus separate study-abroad numbers and a costed fallback), and its arithmetic checks out line by line; a004's post-18 job-replacing route is a single table row with no steps and leans on a family gift for the income goal.",
+  "survived": [
+    "Target 1 counted parent's pre-tax money: redefined as after-tax income in the student's name post-gift at 18, math verified",
+    "GST per-PAN aggregate turnover: commission model plus choosing the DAH by GST headroom, with a GST-absorbed Rs65k case",
+    "No numbers for studying abroad: Path A costed year by year as passive dividends",
+    "Target 2 checked pre-tax: rebuilt net of GST, GM share and slab tax (Rs30.06L verified)",
+    "Phase 1 broke the 8-hour cap: online by default, itemised 7-hour week",
+    "Track B had no route to the goal and a contracting gap: costed to both targets, retainers moved under the DAH",
+    "Tutor ramp arithmetic: Gate 3 at 4+ tutors plus 4 hires = 8"
+  ],
+  "standing": {"a016": [], "a004": []}
+}
